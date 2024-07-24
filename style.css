@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease-out;
+}
+.startmenu img{
+    border-radius: 10px;
+}
+.taskbar{
+    z-index: 10;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    padding-top: 4px;
+    position: absolute;
+    right: 0;
+    height: 85%;
+}
+
+.icon{
+    position: relative;
+    left: 12px;
+    top: 12px;
+    font-size: small;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+.icon img{
+    margin-left: 4px;
+}
+.micicon{
+    position: relative;
+    top: 40px;
+    left: 12px;
+    color: white;
+    font-size: small;
+}
+.micicon img{
+    margin-left: 16px;
+}
